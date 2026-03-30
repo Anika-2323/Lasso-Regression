@@ -5,7 +5,7 @@ from sklearn.linear_model import Lasso
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-df = pd.read_csv("student_data.csv")
+df = pd.read_csv("student_exam_scores.csv")
 
 # Display first 5 rows
 print("First 5 rows:")
